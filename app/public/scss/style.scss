@@ -1,0 +1,49 @@
+h3 {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+.intro {
+  margin-bottom: 2rem;
+}
+form {
+  .question {
+    margin-bottom: 2rem;
+    label {
+      font-size: 1.2rem;
+      .error {
+        color: red;
+      }
+    }
+    .range-group {
+      margin: 2rem 0 3rem 0;
+      div {
+        position: relative;
+        font-size: 0.8rem;
+        bottom: .2rem;
+      }
+      input[type="range"] {
+        width: 100%;
+      }
+    }
+  }
+}
+.modal {
+  .modal-dialog {
+    .modal-content {
+      .modal-body {
+        img {
+          width: 100%;
+          min-width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+footer {
+  border-top: 1px solid #cccccc;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  text-align: center;
+}
