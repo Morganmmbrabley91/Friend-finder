@@ -6,7 +6,7 @@ var path = require("path");
 var exphbs = require("express-handlebars");
 var app = express();
 var PORT = process.env.PORT || 3000;
-app.use(express.static(path.join(__dirname, 'app/public')));
+app.use('/static', express.static(path.join(__dirname, 'hostedimages')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());

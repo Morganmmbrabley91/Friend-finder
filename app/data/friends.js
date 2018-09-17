@@ -1,27 +1,27 @@
 var friends = [
   {
     "name" : "Rick",
-    "photo" : "",
+    "photo" : "../hostedimages/rick.gif",
     "scores" : [5, 5, 5, 5, 5, 5, 5]
   },
   {
     "name" : "snowball",
-    "photo" : "",
+    "photo" : "../hostedimages/snowball.gif",
     "scores" : [4, 4, 4, 4, 4, 4, 4]
   },
   {
     "name" : "Morty",
-    "photo" : "",
+    "photo" : "../hostedimages/morty.gif",
     "scores" : [3, 3, 3, 3, 3, 3, 3]
   },
   {
     "name" : "mrpoopybutthole",
-    "photo" : "",
+    "photo" : "../hostedimages/mrpoopybutthole.gif",
     "scores" : [2, 2, 2, 2, 2, 2, 2]
   },
   {
     "name" : "jerry",
-    "photo" : "",
+    "photo" : "../hostedimages/jerry.gif",
     "scores" : [1, 1, 1, 1, 1, 1, 1]
   }
 ];
